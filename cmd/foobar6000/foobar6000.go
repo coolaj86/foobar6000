@@ -1,9 +1,9 @@
 package main
 
 import (
-	"fmt"
+	"github.com/solderjs/foobar6000/widget"
 )
 
 func main() {
-	fmt.Println("Foo, BAR, 6000!!!")
+	widget.Greet()
 }
